@@ -8,6 +8,7 @@ import {
 import { ScrollManager, WindowScroller } from 'react-scroll-manager';
 import { createBrowserHistory as createHistory } from 'history';
 import './App.css';
+import TopMenu from './menus/TopMenu';
 
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
@@ -30,6 +31,7 @@ class App extends Component {
         <Router history={this.history}>
           <WindowScroller>
             <div id='mainAppContainer'>
+              <TopMenu />
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about-me' component={AboutMe} />

@@ -4,11 +4,32 @@
 
 /* ============================== Desktop Version ============================== */
 #mainAppContainer {
-  height: 1000px;
-  width: 100%;
+  background-image: url(../images/lara_sitting_with_dress.jpg);
+  background-repeat: no-repeat;
+  height: 850px;
+  width: 1280px;
 }
 /* -------------------------------- TopMenu -------------------------------- */
+#topMenuContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 0 20px;
+}
 
+#topMenuTitle {
+  color: #5e8c4c;
+  font-size: 32px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.topMenuText {
+  color: #5e8c4c;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
 
 /* ------------------------------------------------------------------------- */
 
