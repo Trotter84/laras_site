@@ -6,7 +6,7 @@
 #mainAppContainer {
   background-image: url(../images/lara_sitting_with_dress.jpg);
   background-repeat: no-repeat;
-  height: 850px;
+  height: 791px;
   width: 1280px;
 }
 /* -------------------------------- TopMenu -------------------------------- */
@@ -15,27 +15,35 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px 0 20px;
+  padding: 10px 30px 0 20px;
 }
 
 #topMenuTitle {
+  font-family: 'Chilanka', cursive;
   color: #5e8c4c;
   font-size: 32px;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+#topMenuNavContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .topMenuText {
+  font-family: 'Chilanka', cursive;
   color: #5e8c4c;
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding-left: 20px;
 }
 
 /* ------------------------------------------------------------------------- */
 
 /* ------------------------------- Home Page ------------------------------- */
+#homeContainer {
 
-
+}
 /* ------------------------------------------------------------------------- */
 
 /* ----------------------------- About Me Page ----------------------------- */

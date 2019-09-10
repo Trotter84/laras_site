@@ -29,8 +29,10 @@ class TopMenu extends Component {
         <Link to={`/`}>
           <Title id='topMenuTitle'>Lara Vanderlaan</Title>
         </Link>
-        <NavLink>
+        <NavLink id='topMenuNavContainer'>
           <Nav to={'/about-me'} className='topMenuText'>About Me</Nav>
+          <Nav to={'/projects'} className='topMenuText'>Projects</Nav>
+          <Nav to={'/contact'} className='topMenuText'>Contact</Nav>
         </NavLink>
       </div>
     )

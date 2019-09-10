@@ -12,6 +12,8 @@ import TopMenu from './menus/TopMenu';
 
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 
 
 class App extends Component {
@@ -35,6 +37,8 @@ class App extends Component {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about-me' component={AboutMe} />
+                <Route path='/projects' component={Projects} />
+                <Route path='/contact' component={Contact} />
                 <Redirect to='/' />
               </Switch>
             </div>
