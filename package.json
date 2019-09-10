@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "history": "^4.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-scroll-manager": "^1.0.0",
+    "semantic-ui-css": "^2.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
