@@ -1,6 +1,8 @@
-/* #7e9e9d
-#84947e
-#5e8c4c */
+/*
+#7e9e9d -blue
+#84947e -grey green
+#5e8c4c -green
+*/
 
 /* ============================== Desktop Version ============================== */
 #mainAppContainer {
@@ -107,8 +109,24 @@
 /* ------------------------------------------------------------------------- */
 
 /* ------------------------------ Contact Page ------------------------------ */
+#mainContactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#instagramLink {
+  color: #5e8c4c;
+  font-size: 30px;
+  padding: 30px;
+}
 
+#niyaLink {
+  color: #5e8c4c;
+  font-size: 30px;
+  padding: 30px;
+}
 /* ------------------------------------------------------------------------- */
 
 /* -------------------------------- Footer -------------------------------- */
