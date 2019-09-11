@@ -6,8 +6,8 @@
 #mainAppContainer {
   background-image: url(../images/lara_sitting_with_dress.jpg);
   background-repeat: no-repeat;
-  height: 791px;
-  width: 1280px;
+  background-size: cover;
+  min-height: 790px;
 }
 /* -------------------------------- TopMenu -------------------------------- */
 #topMenuContainer {
@@ -50,6 +50,39 @@
 
 
 /* ------------------------------------------------------------------------- */
+
+/* ----------------------------- Projects Page ----------------------------- */
+#projectsContainer {
+  float: left;
+  box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
+  background-color: white;
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 60px;
+  z-index: 1;
+  position: relative;
+  margin-top: 3em;
+}
+
+#projectsSubContainer {
+  padding: 20px;
+}
+
+#carouselContainer {
+
+}
+
+.frontPageImage {
+  width: 100%;
+  height: 525px;
+}
+/* ------------------------------------------------------------------------- */
+
+/* ------------------------------ Contact Page ------------------------------ */
+
+
+/* ------------------------------------------------------------------------- */
+
 
 /* -------------------------------- Footer -------------------------------- */
 
