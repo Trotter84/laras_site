@@ -9,7 +9,6 @@ import BlackBikini2 from '../../images/black_bikini2.jpg';
 import BlueDressInChair from '../../images/blue_dress_in_chair.jpg';
 import FluffyHoodieFront from '../../images/fluffy_hoodie_front.jpg';
 import FluffyHoodie from '../../images/fluffy_hoodie.jpg';
-import LaraSittingWithDress from '../../images/lara_sitting_with_dress.jpg';
 import YogaStretchingArms from '../../images/yoga_stretching_arms.jpg';
 import YogaStretching from '../../images/yoga_stretching.jpg';
 

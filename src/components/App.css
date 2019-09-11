@@ -37,7 +37,6 @@
   font-weight: bold;
   padding-left: 20px;
 }
-
 /* ------------------------------------------------------------------------- */
 
 /* ------------------------------- Home Page ------------------------------- */
@@ -124,8 +123,28 @@
 
 }
 /* -------------------------------- TopMenu -------------------------------- */
+#topMenuContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px 0 20px;
+}
 
+#topMenuTitle {
+  font-size: 30px;
+}
 
+#topMenuNavContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.topMenuText {
+  font-size: 20px;
+  padding-left: 15px;
+}
 /* ------------------------------------------------------------------------- */
 
 /* ------------------------------- Home Page ------------------------------- */
@@ -149,12 +168,35 @@
 /* ============================== Mobile Version ============================== */
 @media (max-width: 426px) {
 
-#mainAppContainer {
-
-}
+  #mainAppContainer {
+    background-image: url(../images/lara_sitting_with_dress_MOBILE.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 /* -------------------------------- TopMenu -------------------------------- */
+#topMenuContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px 0 20px;
+}
 
+#topMenuTitle {
+  font-size: 30px;
+}
 
+#topMenuNavContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topMenuText {
+  font-size: 20px;
+  padding: 7px 0 0 10px;
+}
 /* ------------------------------------------------------------------------- */
 
 /* ------------------------------- Home Page ------------------------------- */
